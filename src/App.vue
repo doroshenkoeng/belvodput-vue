@@ -1,34 +1,39 @@
 <template>
   <div id="app">
     <Header />
-    <b-jumbotron
-     id="jumbotron">
-      <b-container fluid class="text-center" id="jumbotron-b-container">
-        <b-row align-v="center">
-          <b-col>
-            <h1>Белводпуть</h1>
-          </b-col>
-        </b-row>
-        <b-row align-v="center">
-          <b-col>
-            <b-button variant="primary" href="#">Подробнее</b-button>
-          </b-col>
-        </b-row>
-      </b-container>
-    </b-jumbotron>
+    <Carousel />
+    <Section1 />
+    <Section2 />
+    <Section3 />
+    <About />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-
+import Header from "./components/Header.vue";
+import Carousel from "./components/Carousel.vue";
+import Section1 from "./components/Section1.vue";
+import Section2 from "./components/Section2.vue";
+import Section3 from "./components/Section3.vue";
+import About from "./components/About.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Header
+    Header,
+    Carousel,
+    Section1,
+    Section2,
+    Section3,
+    About,
+    Footer,
+  },
+  created() {
+    document.title = "Белводпуть";
   }
-}
+};
 </script>
 
 <style>
@@ -40,13 +45,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 } */
-#jumbotron {
-  height:100vh;
-  margin: 0;
-}
-#jumbotron-b-container {
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-}
 </style>

@@ -1,0 +1,102 @@
+<template>
+  <div id="carousel">
+    <b-carousel
+      id="carousel-1"
+      :interval="4000"
+      controls
+      indicators
+      img-width="1024"
+      img-height="480"
+      background="#ababab"
+    >
+
+      <CarouselSlide 
+        v-for="(service, index) in services"
+        :key="index"
+        :serviceDescription="services[index].name"
+        :imageIndex="index"
+        :hrefId="services[index].id" />
+
+    </b-carousel>
+  </div>
+</template>
+
+<script>
+import CarouselSlide from './CarouselSlide.vue'
+
+export default {
+  components: {
+    CarouselSlide
+  },
+  data() {
+    return {
+      services: [
+        {
+          name: "Берегоукрепляющие работы",
+          id: "section1"
+        },
+        {
+          name: "Выполнение комплекса путевых работ",
+          id: "section2"
+        },
+        {
+          name: "Производство строительных работ",
+          id: "section3"
+        }
+      ]
+    }
+  }
+};
+</script>
+
+
+<style>
+
+  .carousel-inner img {
+      height: 40vh;
+  }
+
+  .link-color {
+    color: darkblue;
+  }
+
+  .carousel-item img {
+    filter: blur(3px) brightness(40%);
+    -webkit-filter: blur(3px) brightness(40%);
+    transform: scale(1.1); /* remove border from blur image */
+  }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+  }
+
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+
+  .carousel-caption p {
+    font-size: 15px;
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .carousel-inner img {
+      height: 92vh;
+    }
+    .carousel-caption h1 {
+      font-size: 65px;
+    }
+
+    .carousel-caption p {
+      font-size: 35px;
+    }
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  /* @media (min-width: @screen-md-min) { ... } */
+
+  /* Large devices (large desktops, 1200px and up) */
+  /* @media (min-width: @screen-lg-min) { ... } */
+</style>
