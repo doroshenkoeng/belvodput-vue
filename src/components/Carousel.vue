@@ -94,6 +94,17 @@ export default {
     }
   }
 
+  /* Landscape */
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .carousel-inner img {
+      height: 80vh;
+    }
+  }
+
   /* Medium devices (desktops, 992px and up) */
   /* @media (min-width: @screen-md-min) { ... } */
 
