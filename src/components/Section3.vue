@@ -17,9 +17,9 @@
                 </b-col>
                 <b-col lg="4">
                     <h5>
-                        Устройство подводных переходов
+                        Перевозка грузов и пассажиров
                     </h5>
-                     <b-img :src="require('../assets/image17.jpg')" class="img-fluid"></b-img>
+                     <b-img :src="require('../assets/image19.jpg')" class="img-fluid"></b-img>
                 </b-col>
             </b-row>
         </b-container>

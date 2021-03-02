@@ -22,13 +22,13 @@
                     <h5>
                     Содержание навигационного оборудования
                     </h5>
-                     <b-img :src="require('../assets/image14.jpg')" rounded="circle" class="img-fluid"></b-img>
+                     <b-img :src="require('../assets/image18.png')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
                 <b-col md="6">
                     <h5>
-                    Содержание гидротехнических сооружений
+                    Инженерно-геодезические изыскания
                     </h5>
-                     <b-img :src="require('../assets/image13.jpg')" rounded="circle" class="img-fluid"></b-img>
+                     <b-img :src="require('../assets/image20.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
             </b-row>
         </b-container>

@@ -61,9 +61,12 @@ export default {
   }
 
   .carousel-item img {
-    filter: blur(3px) brightness(40%);
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    /* filter: blur(3px) brightness(40%);
     -webkit-filter: blur(3px) brightness(40%);
-    transform: scale(1.1); /* remove border from blur image */
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1); */
   }
 
   .carousel-caption {

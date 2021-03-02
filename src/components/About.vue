@@ -5,29 +5,11 @@
             <b-row align-v="center">
                 <b-col md="4">
                     <b-img center :src="require('../assets/logo-removebg-preview.png')" class="img-fluid"></b-img>
-                    <!-- <img src="../assets/logo-removebg-preview.png" class="img-fluid"> -->
                 </b-col>
                 <b-col md="8">
-                    <!-- <h2>О предприятии</h2> -->
-                    <h4>Республиканское Унитарное Днепро-двинское предприятие Водных Путей "Белводпуть" находится в Гомеле и расположено по адресу улица Коммунаров, 7. К сферам деятельности предприятия можно отнести: <strong>Промышленное строительство</strong>, <strong>Мелиоративные работы</strong>. Чтобы связаться с сотрудниками организации, вы можете позвонить по телефону +375 232 70-11-46 и уточнить у них любую интересующую вас информацию.</h4><br>
-                    <!-- <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+                    <h4>Республиканское Унитарное Днепро-двинское предприятие Водных Путей "Белводпуть" находится в Гомеле и расположено по адресу улица Коммунаров, 7а. Предприятие создано для обслуживания внутренних водных путей, с целью обеспечения безопасных условий судоходства на водных путях Республики Беларусь. Чтобы связаться с сотрудниками организации, вы можете позвонить по телефону +375 232 50-66-46 и уточнить у них любую интересующую вас информацию.</h4><br>
                 </b-col>
             </b-row>
-            <!-- <b-row>
-                <b-col>
-                    <h5>
-                    Водохозяйственное строительство
-                    </h5>
-                     <img src="../assets/image15.jpg" class="img-circle img-responsive"> 
-                </b-col>
-                <b-col>
-                    <h5>
-                    Гидромеханизированная разработка грунта
-                    </h5>
-                     <img src="../assets/image16.jpg" class="img-circle img-responsive"> 
-                </b-col>
-            </b-row> -->
         </b-container>
     </div>
 </template>
@@ -67,7 +49,7 @@
         height: 300px; */
         /* border-radius: 100%; */
         /* padding: 10px; */
-        min-width: 150px !important;
+        max-width: 160px !important;
     }
     h2 {
         padding: 0 0 10px 0;

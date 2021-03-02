@@ -1,7 +1,7 @@
 <template>
     <div id="section1">
         <b-container fluid class="text-center bg">
-            <h2>Берегоукрепляющие работы</h2>
+            <h2>Берегоукрепительные работы</h2>
             <br>
             <b-row>
                 <b-col lg="4">

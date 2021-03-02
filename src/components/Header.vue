@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <b-navbar toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href=".">РУП "Белводпуть"</b-navbar-brand>
+      <b-navbar-brand href=".">{{ leftNavItems[0] }}</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -9,8 +9,8 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
 
-            <b-nav-item v-for="(item, index) in items" :key="index">
-              <a :href="'#' + items[index].id" v-smooth-scroll>{{ items[index].name }}</a>
+            <b-nav-item v-for="(item, index) in rightNavItems" :key="index">
+              <a :href="'#' + item.id" v-smooth-scroll>{{ item.name }}</a>
             </b-nav-item>
 
         </b-navbar-nav>
@@ -23,7 +23,10 @@
 export default {
   data() {
     return {
-      items: [
+      leftNavItems: [
+        `РУДДПВП "Белводпуть"`
+      ],
+      rightNavItems: [
         {
           name: "Услуги",
           id: "section1"
@@ -60,7 +63,7 @@ export default {
     padding: 10px;
   }
   .navbar .navbar-brand {
-    font-size: 25px;
+    font-size: 21px;
     padding: 10px;
   }
 </style>

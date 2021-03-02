@@ -37,7 +37,7 @@
             </b-row>
             <b-row>
                 <b-col class="text-center copyright">
-                    <p>&copy; РУП "Белводпуть", 2021 г.</p>
+                    <p>&copy; РУДДПВП "Белводпуть", 2021 г.</p>
                 </b-col>
             </b-row>
         </b-container>
@@ -48,28 +48,28 @@
 export default {
     data() {
         return {
-            address: "Беларусь, 246050 г.Гомель, ул. Коммунаров, 7",
-            mail: "bvp@post.mtk.by",
+            address: "Беларусь, 246050 г.Гомель, ул. Коммунаров, 7а",
+            mail: "belvodput@tut.by",
             phones: [
                 {
-                    phone: "+375 (232) 70-03-60",
-                    receiver: "руководитель"
+                    phone: "50-63-60",
+                    receiver: "директор"
                 },
                 {
-                    phone: "70-11-45",
-                    receiver: "бухгалтер"
-                },
-                {
-                    phone: "74-94-74",
+                    phone: "50-60-74",
                     receiver: "главный инженер"
                 },
                 {
-                    phone: "74-94-75",
-                    receiver: "диспетчер"
+                    phone: "50-63-69",
+                    receiver: "и.о.зам. директора"
                 },
                 {
-                    phone: "70-13-01",
-                    receiver: "магазин"
+                    phone: "50-66-46",
+                    receiver: "диспетчер, приемная"
+                },
+                {
+                    phone: "50-61-31",
+                    receiver: "бухгалтер"
                 }
             ]
         }
@@ -102,6 +102,9 @@ export default {
     }
     .copyright {
         margin-top: 50px;
+    }
+    .copyright p {
+        font-size: 18px;
     }
     .list-group-item {
         background-color: transparent;

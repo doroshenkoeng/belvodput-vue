@@ -2,7 +2,9 @@
   <div id="carousel-slide">
     <b-carousel-slide>
       <template #img>
-        <img class="d-block img-fluid w-100" :src="imageSrc" alt="image slot" />
+        <div class="image-container">
+          <img class="d-block img-fluid w-100" :src="imageSrc" alt="image slot" />
+        </div>
       </template>
       <div>
         <h1>Белводпуть</h1>
