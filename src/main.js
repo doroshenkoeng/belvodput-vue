@@ -11,14 +11,11 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import VueSmoothScroll from 'vue2-smooth-scroll'
-
-import LoadScript from 'vue-plugin-load-script';
+import router from './router';
 
 import App from './App.vue'
 
-Vue.use(VueSmoothScroll)
-Vue.use(LoadScript);
-Vue.loadScript("https://code.jquery.com/jquery-3.6.0.min.js")
+Vue.use(VueSmoothScroll);
 
 library.add(faChevronRight)
 
@@ -30,5 +27,6 @@ Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')

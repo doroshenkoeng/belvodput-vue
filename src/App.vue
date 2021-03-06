@@ -1,37 +1,17 @@
 <template>
   <div id="app">
     <Header />
-    <Carousel />
-    <Section1 />
-    <Section2 />
-    <Section3 />
-    <About />
-    <Partners />
-    <Footer />
+    <router-view />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import Carousel from "./components/Carousel.vue";
-import Section1 from "./components/Section1.vue";
-import Section2 from "./components/Section2.vue";
-import Section3 from "./components/Section3.vue";
-import About from "./components/About.vue";
-import Footer from "./components/Footer.vue";
-import Partners from "./components/Partners.vue";
 
 export default {
   name: "App",
   components: {
-    Header,
-    Carousel,
-    Section1,
-    Section2,
-    Section3,
-    About,
-    Footer,
-    Partners
+    Header
   },
   created() {
     document.title = "Белводпуть";

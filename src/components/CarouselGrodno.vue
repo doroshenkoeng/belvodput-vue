@@ -1,5 +1,5 @@
 <template>
-  <div id="carousel">
+  <div id="carousel-grodno">
     <b-carousel
       id="carousel-1"
       :interval="4000"
@@ -10,7 +10,7 @@
       background="#ababab"
     >
 
-      <CarouselSlide 
+      <CarouselSlideGrodno 
         v-for="(service, index) in services"
         :key="index"
         :serviceDescription="services[index].name"
@@ -22,11 +22,11 @@
 </template>
 
 <script>
-import CarouselSlide from './CarouselSlide.vue'
+import CarouselSlideGrodno from './CarouselSlideGrodno.vue'
 
 export default {
   components: {
-    CarouselSlide
+    CarouselSlideGrodno
   },
   data() {
     return {
@@ -34,17 +34,17 @@ export default {
         {
           name: "Берегоукрепляющие работы",
           id: "section1",
-          image: "image1"
+          image: "image-grodno4"
         },
         {
           name: "Выполнение комплекса путевых работ",
           id: "section2",
-          image: "image2"
+          image: "image-grodno8"
         },
         {
           name: "Производство строительных работ",
           id: "section3",
-          image: "image3"
+          image: "image-grodno3"
         }
       ]
     }

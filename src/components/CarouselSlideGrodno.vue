@@ -1,5 +1,5 @@
 <template>
-  <div id="carousel-slide">
+  <div id="carousel-slide-grodno">
     <b-carousel-slide>
       <template #img>
         <div class="image-container">
@@ -7,7 +7,7 @@
         </div>
       </template>
       <div>
-        <h1>Белводпуть-Гомель</h1>
+        <h1>Белводпуть-Гродно</h1>
         <h3>{{ serviceDescription }}</h3>
         <a :href="'#' + hrefId" v-smooth-scroll class="button2">Подробнее</a>
       </div>

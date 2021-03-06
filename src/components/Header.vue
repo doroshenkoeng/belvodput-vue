@@ -6,6 +6,15 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item href="#">
+            <router-link to="/gomel" class="router-link-item">Гомель</router-link>
+          </b-nav-item>
+          <b-nav-item href="#">
+            <router-link to="/grodno" class="router-link-item">Гродно</router-link>
+          </b-nav-item>
+        </b-navbar-nav>
+
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
 
@@ -69,5 +78,8 @@ export default {
   .navbar .navbar-brand {
     font-size: 21px;
     padding: 10px;
+  }
+  .router-link-item {
+    color: white !important;
   }
 </style>
