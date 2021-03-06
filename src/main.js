@@ -12,9 +12,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import VueSmoothScroll from 'vue2-smooth-scroll'
 
+import LoadScript from 'vue-plugin-load-script';
+
 import App from './App.vue'
 
 Vue.use(VueSmoothScroll)
+Vue.use(LoadScript);
+Vue.loadScript("https://code.jquery.com/jquery-3.6.0.min.js")
 
 library.add(faChevronRight)
 

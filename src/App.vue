@@ -6,6 +6,7 @@
     <Section2 />
     <Section3 />
     <About />
+    <Partners />
     <Footer />
   </div>
 </template>
@@ -18,6 +19,7 @@ import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
 import About from "./components/About.vue";
 import Footer from "./components/Footer.vue";
+import Partners from "./components/Partners.vue";
 
 export default {
   name: "App",
@@ -29,6 +31,7 @@ export default {
     Section3,
     About,
     Footer,
+    Partners
   },
   created() {
     document.title = "Белводпуть";
