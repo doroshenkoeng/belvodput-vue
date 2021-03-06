@@ -36,9 +36,13 @@ export default {
           id: "about"
         },
         {
+          name: "Партнеры",
+          id: "partners"
+        },
+        {
           name: "Контакты",
           id: "contacts"
-        }
+        },
       ]
     }
   }
