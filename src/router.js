@@ -10,10 +10,6 @@ const routes = [
     component: Gomel
   },
   {
-    path: '/gomel',
-    component: Gomel
-  },
-  {
     path: '/grodno',
     component: () => import(/* webpackChunkName: "grodno" */ "./views/Grodno")
   }
