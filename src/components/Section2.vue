@@ -31,6 +31,20 @@
                      <b-img :src="require('../assets/image20.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
             </b-row>
+            <b-row>
+                <b-col md="6">
+                    <h5>
+                    Аренда автокрана 14 т
+                    </h5>
+                     <b-img :src="require('../assets/image33.jpg')" rounded="circle" class="img-fluid"></b-img>
+                </b-col>
+                <b-col md="6">
+                    <h5>
+                    Аренда фронтального погрузчика
+                    </h5>
+                     <b-img :src="require('../assets/image32.jpg')" rounded="circle" class="img-fluid image32"></b-img>
+                </b-col>
+            </b-row>
         </b-container>
     </div>
 </template>
@@ -55,7 +69,9 @@
     h5 {
         padding: 20px 0;
     }
-
+    .image32 {
+        object-fit: cover;
+    }
     /* Small devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         img {
