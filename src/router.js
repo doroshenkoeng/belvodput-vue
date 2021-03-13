@@ -7,6 +7,10 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    redirect: '/gomel'
+  },
+  {
+    path: '/gomel',
     component: Gomel
   },
   {

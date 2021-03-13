@@ -7,12 +7,8 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <!-- <b-nav-item href="#"> -->
-            <router-link to="/" class="router-link-item">Гомель</router-link>
-          <!-- </b-nav-item> -->
-          <!-- <b-nav-item href="#"> -->
+            <router-link to="/gomel" class="router-link-item">Гомель</router-link>
             <router-link to="/grodno" class="router-link-item">Гродно</router-link>
-          <!-- </b-nav-item> -->
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -86,7 +82,7 @@ export default {
     text-decoration: none !important;
     outline: none;
   }
-  a.router-link-exact-active {
+  a.router-link-active {
     color: white !important;
   }
 </style>
