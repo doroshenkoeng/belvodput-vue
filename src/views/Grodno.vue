@@ -4,7 +4,8 @@
     <CarouselGrodno />
     <Section1 />
     <Section2 />
-    <Section3 />
+    <GrodnoSection3 />
+    <AugustowChannel />
     <AboutGrodno />
     <PartnersGrodno />
     <FooterGrodno />
@@ -19,6 +20,8 @@ import Section3 from "../components/Section3.vue";
 import AboutGrodno from "../components/AboutGrodno.vue";
 import FooterGrodno from "../components/FooterGrodno.vue";
 import PartnersGrodno from "../components/PartnersGrodno.vue";
+import AugustowChannel from "../components/AugustowChannel.vue";
+import GrodnoSection3 from "../components/GrodnoSection3.vue";
 
 export default {
   name: "Gomel",
@@ -26,7 +29,8 @@ export default {
     CarouselGrodno,
     Section1,
     Section2,
-    Section3,
+    GrodnoSection3,
+    AugustowChannel,
     AboutGrodno,
     FooterGrodno,
     PartnersGrodno
