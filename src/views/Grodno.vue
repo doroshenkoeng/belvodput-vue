@@ -3,7 +3,7 @@
     <!-- <Header /> -->
     <CarouselGrodno />
     <Section1 />
-    <Section2 />
+    <GrodnoSection2 />
     <GrodnoSection3 />
     <AugustowChannel />
     <AboutGrodno />
@@ -15,8 +15,7 @@
 <script>
 import CarouselGrodno from "../components/CarouselGrodno.vue";
 import Section1 from "../components/Section1.vue";
-import Section2 from "../components/Section2.vue";
-import Section3 from "../components/Section3.vue";
+import GrodnoSection2 from "../components/GrodnoSection2.vue";
 import AboutGrodno from "../components/AboutGrodno.vue";
 import FooterGrodno from "../components/FooterGrodno.vue";
 import PartnersGrodno from "../components/PartnersGrodno.vue";
@@ -28,7 +27,7 @@ export default {
   components: {
     CarouselGrodno,
     Section1,
-    Section2,
+    GrodnoSection2,
     GrodnoSection3,
     AugustowChannel,
     AboutGrodno,
