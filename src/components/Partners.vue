@@ -50,8 +50,8 @@
         color: #555555;
     }
     img {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         border-radius: 5%;
     }
     h2 {
@@ -78,8 +78,8 @@
     /* Small devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         img {
-            width: 200px;
-            height: 200px;
+            width: 140px;
+            height: 140px;
             border-radius: 5%;
         }
         h2 {

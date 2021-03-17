@@ -47,8 +47,8 @@
         color: #555555;
     }
     img {
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         border-radius: 5%;
     }
     h2 {
@@ -71,8 +71,8 @@
     /* Small devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         img {
-            width: 180px;
-            height: 180px;
+            width: 130px;
+            height: 130px;
             border-radius: 5%;
         }
         h2 {
