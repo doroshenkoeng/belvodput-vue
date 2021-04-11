@@ -49,7 +49,7 @@ export default {
     data() {
         return {
             address: "Беларусь, 230011, г. Гродно, ул. Портовая 5",
-            mail: "belvodput@tut.by",
+            mail: "info@belvodput.by",
             phones: [
                 {
                     phone: "(0152)393456",

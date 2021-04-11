@@ -50,7 +50,7 @@ export default {
     data() {
         return {
             address: "Беларусь, 246050 г.Гомель, ул. Коммунаров, 7а",
-            mail: "belvodput@tut.by",
+            mail: "info@belvodput.by",
             phones: [
                 {
                     phone: "50-63-60",

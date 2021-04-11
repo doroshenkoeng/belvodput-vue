@@ -45,10 +45,6 @@
         color: #555555;
     }
     img {
-        /* width: 250px;
-        height: 300px; */
-        /* border-radius: 100%; */
-        /* padding: 10px; */
         max-width: 160px !important;
     }
     h2 {
