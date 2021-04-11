@@ -18,6 +18,10 @@
               <a :href="'#' + item.id" v-smooth-scroll>{{ item.name }}</a>
             </b-nav-item>
 
+            <b-nav-item>
+              <router-link to="/news">Новости</router-link>
+            </b-nav-item>
+
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -75,14 +79,14 @@ export default {
     font-size: 21px;
     padding: 10px;
   }
-  a.router-link-item {
+  .router-link-item {
     font-size: 18px;
     color: rgb(182, 180, 180) !important;
     padding: 10px;
     text-decoration: none !important;
     outline: none;
   }
-  a.router-link-active {
+  .router-link-item.router-link-active {
     color: white !important;
   }
 </style>

@@ -12,8 +12,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import VueSmoothScroll from 'vue2-smooth-scroll'
 import router from './router';
+import VueHolder from 'vue-holderjs';
 
 import App from './App.vue'
+
+Vue.use(VueHolder);
 
 Vue.use(VueSmoothScroll);
 

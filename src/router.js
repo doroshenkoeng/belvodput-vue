@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter from 'vue-router';
-import Gomel from './views/Gomel.vue';
 
 Vue.use(VueRouter);
 
@@ -11,12 +10,24 @@ const routes = [
   },
   {
     path: '/gomel',
-    component: Gomel
+    component: () => import(/* webpackChunkName: "gomel" */ "./views/Gomel")
   },
   {
     path: '/grodno',
     component: () => import(/* webpackChunkName: "grodno" */ "./views/Grodno")
+  },
+  {
+    path: '/news',
+    component: () => import(/* webpackChunkName: "news" */ "./views/News")
   }
+  // {
+  //   path: '/gomel/news',
+  //   redirect: '/news'
+  // },
+  // {
+  //   path: '/grodno/news',
+  //   redirect: '/news'
+  // }
 ]
 
 export default new VueRouter({
