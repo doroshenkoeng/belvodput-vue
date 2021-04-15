@@ -26,6 +26,16 @@
     </div>
 </template>
 
+<script>
+export default {
+    data() {
+        return {
+            description: "Learn more content goes here"
+        }
+    }
+}
+</script>
+
 <style scoped>
     .container-fluid {
         padding-top: 80px;
@@ -46,10 +56,14 @@
     }
     h5 {
         padding: 15px 0;
-        /* padding-top: 0;
-        padding-bottom: 10px; */
     }
-
+    .collapse-content {
+        font-size: 19px;
+        line-height: 1.375em;
+        color: #303030;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }  
     /* Small devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         img {

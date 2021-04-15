@@ -19,15 +19,11 @@ const routes = [
   {
     path: '/news',
     component: () => import(/* webpackChunkName: "news" */ "./views/News")
+  },
+  {
+    path: '/construction-work/details',
+    component: () => import(/* webpackChunkName: "news" */ "./views/ConstWorkDetails")
   }
-  // {
-  //   path: '/gomel/news',
-  //   redirect: '/news'
-  // },
-  // {
-  //   path: '/grodno/news',
-  //   redirect: '/news'
-  // }
 ]
 
 export default new VueRouter({

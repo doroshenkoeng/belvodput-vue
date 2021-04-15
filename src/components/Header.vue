@@ -1,7 +1,9 @@
 <template>
   <div id="header">
     <b-navbar toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href=".">{{ leftNavItems[0] }}</b-navbar-brand>
+      <b-navbar-brand to="/gomel">
+        {{ leftNavItems[0] }}
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
