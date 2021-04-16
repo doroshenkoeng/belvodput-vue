@@ -20,9 +20,9 @@
               <a :href="'#' + item.id" v-smooth-scroll>{{ item.name }}</a>
             </b-nav-item>
 
-            <b-nav-item>
+            <!-- <b-nav-item>
               <router-link to="/news">Новости</router-link>
-            </b-nav-item>
+            </b-nav-item> -->
 
         </b-navbar-nav>
       </b-collapse>
