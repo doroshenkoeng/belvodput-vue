@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/belvodpu/public_html/
+    - /bin/cp -a /home/belvodpu/repositories/belvodput/. $DEPLOYPATH
