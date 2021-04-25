@@ -6,7 +6,7 @@
                     <b-list-group flush>
                         <b-list-group-item><h3>Разделы</h3></b-list-group-item>
                         <b-list-group-item><a href=".">Главная</a></b-list-group-item>
-                        <b-list-group-item><a href="#section1" v-smooth-scroll>Берегоукрепляющие работы</a></b-list-group-item>
+                        <b-list-group-item><a href="#section1" v-smooth-scroll>Берегоукрепительные работы</a></b-list-group-item>
                         <b-list-group-item><a href="#section2" v-smooth-scroll>Выполнение комплекса путевых работ</a></b-list-group-item>
                         <b-list-group-item><a href="#section3" v-smooth-scroll>Производство строительных работ</a></b-list-group-item>
                         <b-list-group-item><a href="#about" v-smooth-scroll>О предприятии</a></b-list-group-item>
@@ -16,7 +16,7 @@
                 <b-col md="4">
                     <b-list-group flush>
                         <b-list-group-item><h3>Услуги</h3></b-list-group-item>
-                        <b-list-group-item><p>Берегоукрепляющие работы</p></b-list-group-item>
+                        <b-list-group-item><p>Берегоукрепительные работы</p></b-list-group-item>
                         <b-list-group-item><p>Дноочищение</p></b-list-group-item>
                         <b-list-group-item><p>Дноуглубление</p></b-list-group-item>
                         <b-list-group-item><p>Намыв грунта</p></b-list-group-item>

@@ -32,7 +32,7 @@ export default {
     return {
       services: [
         {
-          name: "Берегоукрепляющие работы",
+          name: "Берегоукрепительные работы",
           id: "section1",
           image: "image1"
         },
