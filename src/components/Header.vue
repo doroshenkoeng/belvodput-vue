@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       leftNavItems: [
-        `РУДДПВП "Белводпуть"`
+        `РУДДПВП "Белводпут"`
       ],
       rightNavItems: [
         {
