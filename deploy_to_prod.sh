@@ -7,10 +7,10 @@ set -e
 npm run build
 
 # Copy .htaccess to dist
-copy .htaccess dist
+cp .htaccess dist
 
 # Copy .cpanel.yml to dist
-copy .cpanel.yml dist
+cp .cpanel.yml dist
 
 # navigate into the build output directory
 cd dist
@@ -22,10 +22,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git remote add origin git@github.com:belvodput/belvodput.git
-
+# git remote add origin https://github.com/belvodput/belvodput.git
+git push -f https://belvodput:Forever2357@github.com/belvodput/belvodput.git/ master
 # if you are deploying to https://<USERNAME>.github.io
-git push -f origin master
+# git push -f origin master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
