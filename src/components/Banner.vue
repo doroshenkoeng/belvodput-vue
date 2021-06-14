@@ -3,7 +3,7 @@
         <div v-if="isBannerShowed">
             <div class="img-wrap">
                 <b-button-close class="close" v-on:click="closeBanner"></b-button-close>
-                <a href="http://tibo.by/" target="_blank">
+                <a href="http://minzdrav.gov.by/ru/novoe-na-sayte/belarus-protiv-tabaka-net-novym-vyzovam/" target="_blank">
                     <b-img center :src="require('../assets/banner.jpg')" class="img-fluid"></b-img>
                 </a>
             </div>
