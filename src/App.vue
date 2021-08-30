@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Banner />
+    <!-- <Banner /> -->
     <Header />
     <router-view />
   </div>
@@ -13,7 +13,7 @@ import Header from "./components/Header.vue";
 export default {
   name: "App",
   components: {
-    Banner,
+    // Banner,
     Header
   },
   created() {
