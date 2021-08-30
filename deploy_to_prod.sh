@@ -21,7 +21,7 @@ cd dist
 git init
 
 git config user.email "doroshenkoeng@gmail.com"
-git config user.name "Sergey"
+git config user.name "belvodput"
 
 git add -A
 git commit -m 'deploy'
