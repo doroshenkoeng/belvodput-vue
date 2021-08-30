@@ -9,16 +9,9 @@
             <h2 class="blog-post-title">{{ singleNews.title }}</h2>
             <p class="blog-post-meta">{{ singleNews.date }}</p>
             <div v-html="singleNews.content"></div>
-            <p>
-              <b-img :src="require('../assets/singleNews1Image1.jpg')" class="img-fluid"></b-img>
+            <p v-for="(image, index) in singleNews.images" :key="index">
+              <b-img :src="require('../assets/' + image)" class="img-fluid"></b-img>
             </p>
-            <p>
-              <b-img :src="require('../assets/singleNews1Image2.jpg')" class="img-fluid"></b-img>
-            </p>
-            <p>
-              <b-img :src="require('../assets/singleNews1Image3.jpg')" class="img-fluid"></b-img>
-            </p>
-            <!-- <hr> -->
           </div><!-- /.blog-post -->
         </div>
       </div>
@@ -40,6 +33,24 @@ export default {
       return {
           newsList: [
             {
+                title: "Получен аттестат соответствия категории четвертой на право осуществления инженерных изысканий",
+                date: "Август 30, 2021",
+                content: `
+                <p>Настоящий аттестат соответствия категории четвертой выдан выдан Республиканскому унитарному Днепро-Двинскому предприятию водных путей "Белводпутъ".</p>                
+                <h3>На право осуществления:</h3>
+                <ol>
+                <li>
+                  Инженерных изысканий для объектов строительства первого-четвертого классов сложности.
+                </li>
+                <li>
+                  Работы в составе инженерно-геодезических изычканий.
+                </li>
+                `,
+                images: [
+                  "singleNews2Image1.jpg"
+                ]
+            },
+            {
                 title: "Получено специальное разрешение на право осуществления деятельности в области промышленной безопасности",
                 date: "Апрель 25, 2021",
                 content: `
@@ -55,7 +66,12 @@ export default {
                 <li>
                   Ремонт (без права оказания услуг, без применения сварки) технических устройств, эксплуатируемых на потенциально опасных объектах: карьерах, разрезах по добыче полезных ископаемых с проектным объемом добычи по горной массе от 100 тыс. м3 в год (землесосные снаряды).
                 </li>
-                `
+                `,
+                images: [
+                  'singleNews1Image1.jpg',
+                  'singleNews1Image2.jpg',
+                  'singleNews1Image3.jpg'
+                ],
             }
           ]
       }
