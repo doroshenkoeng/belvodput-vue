@@ -19,11 +19,16 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
+
+git config user.email "doroshenkoeng@gmail.com"
+git config user.name "Sergey"
+
 git add -A
 git commit -m 'deploy'
 
 # git remote add origin https://github.com/belvodput/belvodput.git
-git push -f https://belvodput:Forever2357@github.com/belvodput/belvodput.git/ master
+git push -f git@belvodput:belvodput/belvodput.git master
+
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f origin master
 

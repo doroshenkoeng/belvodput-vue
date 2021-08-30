@@ -13,11 +13,16 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
+
+git config user.email "doroshenkoeng@gmail.com"
+git config user.name "Sergey"
+
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f https://github.com/belvodput/belvodput.github.io.git master
+git push -f git@belvodput:belvodput/belvodput.github.io.git master
+
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
