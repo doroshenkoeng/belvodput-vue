@@ -11,6 +11,7 @@
                         <b-list-group-item><a href="#section3" v-smooth-scroll>Производство строительных работ</a></b-list-group-item>
                         <b-list-group-item><a href="#about" v-smooth-scroll>О предприятии</a></b-list-group-item>
                         <b-list-group-item><a href="https://mintrans.gov.by/ru">Министерство транспорта и коммуникаций</a></b-list-group-item>
+                        <b-list-group-item><a href="http://обращения.бел">Система обращения граждан</a></b-list-group-item>
                     </b-list-group>
                 </b-col>
                 <b-col md="4">
