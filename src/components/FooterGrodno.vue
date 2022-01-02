@@ -12,6 +12,11 @@
                         <b-list-group-item><a href="#about" v-smooth-scroll>О предприятии</a></b-list-group-item>
                         <b-list-group-item><a href="https://mintrans.gov.by/ru">Министерство транспорта и коммуникаций</a></b-list-group-item>
                         <b-list-group-item><a href="http://обращения.бел">Система обращения граждан</a></b-list-group-item>
+                        <b-list-group-item>
+                            <a href="https://pravo.by" target="_blank">
+                                <b-img center src="https://pravo.by/upload/images/sm_full.aspx_guid=180431476362146.jpg" alt="Национальный правовой Интернет-портал Республики Беларусь" class="img-fluid" align="left"></b-img>
+                            </a>
+                        </b-list-group-item>
                     </b-list-group>
                 </b-col>
                 <b-col md="4">
