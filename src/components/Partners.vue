@@ -12,14 +12,11 @@
                 <b-col md="3">
                      <b-img :src="require('../assets/image22.jpg')" class="img-fluid"></b-img>
                 </b-col>
-                <b-col md="3">  
-                     <b-img :src="require('../assets/image24.png')" class="img-fluid"></b-img>
+                 <b-col md="3">
+                     <b-img :src="require('../assets/image25.jpg')" class="img-fluid"></b-img>
                 </b-col>
             </b-row>
             <b-row align-v="center">
-                <b-col md="3">
-                     <b-img :src="require('../assets/image25.jpg')" class="img-fluid"></b-img>
-                </b-col>
                 <b-col md="3">
                      <b-img :src="require('../assets/image26.jpg')" class="img-fluid gomelpromstroy-img"></b-img>
                 </b-col>
