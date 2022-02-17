@@ -68,11 +68,11 @@ export default {
                 },
                 {
                     phone: "50-63-69",
-                    receiver: "и.о.зам. директора"
+                    receiver: "зам. директора"
                 },
                 {
                     phone: "50-66-46",
-                    receiver: "диспетчер, приемная"
+                    receiver: "приемная"
                 },
                 {
                     phone: "50-61-31",
