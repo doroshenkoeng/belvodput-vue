@@ -14,7 +14,12 @@ import VueSmoothScroll from 'vue2-smooth-scroll'
 import router from './router';
 import VueHolder from 'vue-holderjs';
 
-import App from './App.vue'
+import VueI18n from 'vue-i18n';
+
+import ru from './localization/ru.js';
+import by from './localization/by.js';
+
+import App from './App.vue';
 
 Vue.use(VueHolder);
 
@@ -27,11 +32,24 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 
+Vue.use(VueI18n);
+
 Vue.config.productionTip = false
 
+const messages = {
+  ru,
+  by
+};
+
+const i18n = new VueI18n({
+  locale: "ru",
+  messages
+});
+
 new Vue({
-  router,
   render: h => h(App),
+  router,
+  i18n
 }).$mount('#app');
 
 Vue.config.devtools = true

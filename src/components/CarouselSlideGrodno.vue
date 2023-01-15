@@ -7,9 +7,9 @@
         </div>
       </template>
       <div>
-        <h1>Белводпуть-Гродно</h1>
+        <h1>{{ $t("belvodputGrodno") }}</h1>
         <h3>{{ serviceDescription }}</h3>
-        <a :href="'#' + hrefId" v-smooth-scroll class="button2">Подробнее</a>
+        <a :href="'#' + hrefId" v-smooth-scroll class="button2">{{ $t("seeMore") }}</a>
       </div>
     </b-carousel-slide>
   </div>

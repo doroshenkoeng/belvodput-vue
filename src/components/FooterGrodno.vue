@@ -17,6 +17,9 @@
                                 <b-img center src="https://pravo.by/upload/images/sm_full.aspx_guid=180431476362146.jpg" alt="Национальный правовой Интернет-портал Республики Беларусь" class="img-fluid" align="left"></b-img>
                             </a>
                         </b-list-group-item>
+                        <b-list-group-item>
+                            <LocaleButton />
+                        </b-list-group-item>
                     </b-list-group>
                 </b-col>
                 <b-col md="4">
@@ -44,7 +47,7 @@
             </b-row>
             <b-row>
                 <b-col class="text-center copyright">
-                    <p>&copy; РУДДПВП "Белводпуть", 2021 г.</p>
+                    <p>&copy; РУДДПВП "Белводпуть", 2023 г.</p>
                 </b-col>
             </b-row>
         </b-container>
@@ -52,7 +55,12 @@
 </template>
 
 <script>
+import LocaleButton from "./LocaleButton.vue";
+
 export default {
+    components: {
+        LocaleButton,
+    },
     data() {
         return {
             address: "Беларусь, 230011, г. Гродно, ул. Портовая 5",

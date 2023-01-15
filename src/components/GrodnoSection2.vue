@@ -1,18 +1,18 @@
 <template>
     <div id="grodno-section2">
         <b-container fluid class="text-center bg">
-            <h2>Выполнение комплекса путевых работ</h2>
+            <h2>{{ $t("trackComplexService") }}</h2>
             <br>
             <b-row>
                 <b-col md="6">
                     <h5>
-                    Землечерпание
+                        {{ $t("dredging") }}
                     </h5>
                      <b-img :src="require('../assets/image10.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
                 <b-col md="6">
                     <h5>
-                    Дноочищение
+                        {{ $t("bottomCleaning") }}
                     </h5>
                      <b-img :src="require('../assets/image11.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
@@ -20,27 +20,21 @@
             <b-row>
                 <b-col md="6">
                     <h5>
-                    Содержание навигационного оборудования
+                        {{ $t("navigationMaintenance") }}
                     </h5>
                      <b-img :src="require('../assets/image18.png')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
                 <b-col md="6">
                     <h5>
-                    Инженерно-геодезические изыскания
+                        {{ $t("engineeringAndGeodeticSurveys") }}
                     </h5>
                      <b-img :src="require('../assets/image20.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
             </b-row>
             <b-row>
-                <!-- <b-col md="6">
-                    <h5>
-                    Аренда автокрана 14 т
-                    </h5>
-                     <b-img :src="require('../assets/image34.jpg')" rounded="circle" class="img-fluid object-fit-cover"></b-img>
-                </b-col> -->
                 <b-col md="6">
                     <h5>
-                    Аренда фронтального погрузчика
+                        {{ $t("frontLoaderRental") }}
                     </h5>
                      <b-img :src="require('../assets/image32.jpg')" rounded="circle" class="img-fluid object-fit-cover"></b-img>
                 </b-col>

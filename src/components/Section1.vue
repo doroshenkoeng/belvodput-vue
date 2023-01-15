@@ -1,24 +1,24 @@
 <template>
     <div id="section1">
         <b-container fluid class="text-center bg">
-            <h2>Берегоукрепительные работы</h2>
+            <h2>{{ $t("bankProtectionService") }}</h2>
             <br>
             <b-row>
                 <b-col lg="4">
                     <h5>
-                    Учет особенностей ландшафта
+                        {{ $t("landscapeWise") }}
                     </h5>
                      <b-img :src="require('../assets/image5.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
                 <b-col lg="4">
                     <h5>
-                    Применение гибких бетонных матов
+                        {{ $t("usageOfFlexibleConcreteMats") }}
                     </h5>
                      <b-img :src="require('../assets/image9.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
                 <b-col lg="4">
                     <h5>
-                    Применение георешетки
+                        {{ $t("geoGridApplication") }}
                     </h5>
                      <b-img :src="require('../assets/image8.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>

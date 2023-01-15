@@ -1,7 +1,7 @@
 <template>
   <div id="partners">
       <b-container fluid class="text-center bg">
-            <h2>Наши партнеры</h2>
+            <h2>{{ $t("ourPartners") }}</h2>
             <b-row align-v="center">
                 <b-col md="3">  
                      <b-img :src="require('../assets/image21.jpg')" class="img-fluid"></b-img>
