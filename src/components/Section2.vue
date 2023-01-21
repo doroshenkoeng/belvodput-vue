@@ -6,7 +6,7 @@
             <b-row>
                 <b-col md="6">
                     <h5>
-                        {{ $t("dredging") }}
+                        {{ $t("scooping") }}
                     </h5>
                      <b-img :src="require('../assets/image10.jpg')" rounded="circle" class="img-fluid"></b-img>
                 </b-col>
