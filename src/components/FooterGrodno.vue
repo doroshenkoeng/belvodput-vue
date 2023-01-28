@@ -68,7 +68,7 @@
               ><p>{{ $t("bottomCleaning") }}</p></b-list-group-item
             >
             <b-list-group-item
-              ><p>{{ $t("dredging") }}</p></b-list-group-item
+              ><p>{{ $t("scooping") }}</p></b-list-group-item
             >
             <b-list-group-item
               ><p>{{ $t("alluvium") }}</p></b-list-group-item
