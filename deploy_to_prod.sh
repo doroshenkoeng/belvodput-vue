@@ -27,7 +27,7 @@ git add -A
 git commit -m 'deploy'
 
 # git remote add origin https://github.com/belvodput/belvodput.git
-GIT_SSH_COMMAND="ssh -i ~/.ssh/belvodput_id_ed25519" git push -f git@belvodput:belvodput/belvodput.git master
+GIT_SSH_COMMAND="ssh -i ~/.ssh/belvodput_id_ed25519" git push -f git@belvodput:belvodput/belvodput.git main
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f origin master

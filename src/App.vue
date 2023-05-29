@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <!-- <Banner /> -->
+     <Banner />
     <Header />
     <router-view />
   </div>
 </template>
 
 <script>
-// import Banner from "./components/Banner.vue";
+import Banner from "./components/Banner.vue";
 import Header from "./components/Header.vue";
 
 export default {
   name: "App",
   components: {
-    // Banner,
+    Banner,
     Header
   },
   created() {
