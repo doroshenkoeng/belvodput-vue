@@ -13,7 +13,7 @@
               <b-img :src="require('../assets/' + image)" class="img-fluid"></b-img>
             </p>
             <p v-for="(video, index) in singleNews.videos" :key="index">
-                <youtube :video-id="video.videoId" ref="youtube" @playing="playing"></youtube>
+                <youtube :video-id="video.videoId" ref="youtube" :fit-parent="true"></youtube>
             </p>
           </div><!-- /.blog-post -->
         </div>
