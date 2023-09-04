@@ -4,7 +4,6 @@
             <div class="img-wrap">
                 <b-button-close class="close" v-on:click="closeBanner"></b-button-close>
                 <a href="https://fest-sbv.gck.by/" target="_blank">
-                    <b-img center :src="require('../assets/fest.jpg')" class="img-fluid"></b-img>
                 </a>
             </div>
         </div>
@@ -15,7 +14,6 @@
 <style scoped>
 .img-wrap {
     position: relative;
-    background: linear-gradient(to right, rgb(255, 192, 223), rgb(133, 132, 209));
 }
 .img-wrap .close {
     position: absolute;

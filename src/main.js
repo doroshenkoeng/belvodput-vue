@@ -21,6 +21,8 @@ import by from './localization/by.js';
 
 import App from './App.vue';
 
+import VueYoutube from 'vue-youtube';
+
 Vue.use(VueHolder);
 
 Vue.use(VueSmoothScroll);
@@ -33,6 +35,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(BootstrapVue)
 
 Vue.use(VueI18n);
+
+Vue.use(VueYoutube);
 
 Vue.config.productionTip = false
 
